@@ -1,5 +1,6 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 *{
   margin: 0;
   padding: 0;
@@ -9,23 +10,29 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body{
   background: rgb(219, 219, 219);
 }
 .header{
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: space-between;
   height: 60px;
   padding: 20px;
   background: #fff;
+  max-width: 880px;
+  min-width: 300px;
 }
-header h4 {
-    font-weight: bold;
+
+.nav-bar {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
-header h4 p {
-    font-weight: normal;
-}
+
 .logo{
   display: flex;
   align-items: center;
@@ -35,6 +42,13 @@ header h4 p {
   font-size: 18px;
   font-weight: 600;
   margin: 2rem 8rem 2rem 2rem;
+}
+.logo h1 {
+    margin: auto 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .search_box{
   display: flex;
@@ -92,7 +106,9 @@ header h4 p {
         display: none;
     }
     .mobile-menu-icon {
-        display: block;
+        padding: 1rem;
+        display: flex;
+        
     }
     .mobile-menu-icon button {
         background-color: transparent;
