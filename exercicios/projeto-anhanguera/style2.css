@@ -28,12 +28,10 @@ body{
 
 .nav-bar {
     background-color: white;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-  max-width: 880px;
-  min-width: 300px;
+
 }
 
 .logo{
@@ -152,3 +150,41 @@ body{
         display: block;
     }
 }
+
+
+
+
+
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  max-width: 880px;
+  min-width: 300px;
+
+  }
+  
+  /* Side menubar section */
+  nav{
+    background: #fff;
+    
+  }
+  .side_navbar{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    max-width: 880px;
+  min-width: 300px;
+  }
+  .side_navbar span{
+    color: gray;
+    margin: 1rem 3rem;
+    font-size: 12px;
+  }
+  .side_navbar a{
+    width: 100%;
+    padding: 0.8rem 3rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+  }
