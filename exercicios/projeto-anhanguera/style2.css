@@ -15,15 +15,16 @@ body{
   background: rgb(219, 219, 219);
 }
 .header{
+    margin: auto;
   display: block;
   align-items: center;
   justify-content: space-between;
   height: 60px;
   padding: 20px;
   background: #fff;
-  max-width: 880px;
-  min-width: 300px;
 }
+
+
 
 .nav-bar {
     background-color: white;
@@ -31,11 +32,16 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+  max-width: 880px;
+  min-width: 300px;
 }
 
 .logo{
   display: flex;
   align-items: center;
+  width: 800px;
+  max-width: 880px;
+  min-width: 300px;
 }
 .logo a{
   color: #000;
@@ -53,6 +59,9 @@ body{
 .search_box{
   display: flex;
   align-items: center;
+  width: 800px;
+  max-width: 880px;
+  min-width: 300px;
 }
 .search_box input{
   padding: 9px;
@@ -72,6 +81,9 @@ body{
 .header-icons{
   display: flex;
   align-items: center;
+  width: 800px;
+  max-width: 880px;
+  min-width: 300px;
 }
 .header-icons i{
   margin-right: 2rem;
@@ -101,9 +113,15 @@ body{
 @media screen and (max-width: 730px) {
     .nav-item {
         display: none;
+        width: 800px;
+  max-width: 880px;
+  min-width: 300px;
     }
     .login-button {
         display: none;
+        width: 800px;
+  max-width: 880px;
+  min-width: 300px;
     }
     .mobile-menu-icon {
         padding: 1rem;
