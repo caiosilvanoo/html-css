@@ -69,6 +69,7 @@ body{
     color: #000;
     font-size: 15px;
     font-weight: 400;
+    white-space: nowrap;
 }  
 
 /*home - section css*/
@@ -80,14 +81,27 @@ body{
     height: 100%;
     width: calc(100% - 240px);
     left: 240px;
+    transition: all 0.5s ease;
+}
+.sidebar.active ~ .home-section{
+    width: calc(100% - 60px);
+    left: 6px;
 }
 .home-section nav{
+    position: fixed;
+    width: calc(100% - 24px);
+    left: 240px;
     height: 80px;
     background: rgb(226, 226, 226);
     padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: all 0.5s ease;
+}
+.sidebar.active ~ .home-section nav {
+    width: calc(100% - 60px);
+    left: 60px;
 }
 .home-section nav .sidebar-button{
     display: flex;
@@ -156,4 +170,24 @@ nav .profile-details .admin_name{
 nav .profile-details i {
     color: #333;
     font-size: 25px;
+}
+
+.home-section .home-content{
+    position: relative;
+    padding-top: 100px;
+}
+.home-content .overview-boxes .box {
+    padding: 15px 14px;
+    background: #f2f2f2;
+}
+.home-content .overview-boxes .box-topic{
+    font-size: 20px;
+    font-weight: 500;
+}
+.home-content .overview-boxes .number {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: inline-block;
+
 }
