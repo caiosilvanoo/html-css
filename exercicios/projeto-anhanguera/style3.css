@@ -47,6 +47,38 @@ body{
     width: 100%;
     list-style: none;
 }
+
+
+.sidebar-profile {
+    margin-bottom: 30px;
+    text-align: center;   
+}
+.sidebar-profile img {
+    display: block;
+    width: 100px;
+    height: 105px;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+.sidebar-profile h3 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+.sidebar-profile i {
+    margin: 5px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar-profile p {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 .sidebar .nav-links li a {
     height: 100%;
     width: 100%;
@@ -97,6 +129,13 @@ body{
     align-items: center;
     justify-content: space-between;
     transition: all 0.5s ease;
+}
+#check:checked ~ .sidebar {
+    left: 60px;
+}
+.sidebar.active ~ .sidebar-profile {
+    width: calc(100% - 60px);
+    display: none;
 }
 .sidebar.active ~ .home-section nav {
     width: calc(100% - 60px);
@@ -172,7 +211,6 @@ nav .profile-details i {
 }
 
 .home-section .home-content{
-    position: relative;
     padding-top: 100px;
 }
 
@@ -185,6 +223,7 @@ nav .profile-details i {
     padding: 0 20px;
     flex-wrap: wrap;
 }
+
 .home-content .overview-boxes .box{
     width: calc(100% / 4 - 15px);
     display: flex;
@@ -210,7 +249,7 @@ nav .profile-details i {
     display: flex;
     align-items: center;
 }
-.overview-boxes .indicator .text {
+.overview-boxes .indicator .text{
     display: flex;
     font-size: 12px;
     justify-content: space-between;
