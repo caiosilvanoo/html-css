@@ -40,7 +40,7 @@ body, html {
     object-fit: cover;
     overflow: hidden;
     border-radius: 200px;
-    box-shadow: 0 40px 40px rgba(252, 95, 37, 0.248);
+    box-shadow: 0 40px 40px rgba(252, 94, 37, 0.144);
 }
 .img__profile .curso {
     font-size: 20px;
@@ -67,7 +67,6 @@ body, html {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-
 }
 
 /* item section */
@@ -88,6 +87,7 @@ body, html {
     padding: 8px;
     line-height: 16px;
 }
+
 .item i {
     display: grid;
     margin: 0;
