@@ -40,7 +40,7 @@ body, html {
     object-fit: cover;
     overflow: hidden;
     border-radius: 200px;
-    box-shadow: 0 40px 40px rgba(32, 79, 211, 0.16);
+    box-shadow: 0 40px 40px rgba(252, 95, 37, 0.248);
 }
 .img__profile .curso {
     font-size: 20px;
