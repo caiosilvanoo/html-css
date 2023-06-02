@@ -140,7 +140,8 @@ button.on:active,
 button.action, 
 .button.action {
 	border: 1px solid #D8D8D8 !important;
-	
+    padding: 7px;
+	margin: 0 45px;
 	background: #F2F2F2;
 	background: -webkit-linear-gradient(top, #F5F5F5, #F1F1F1);
 	background: -moz-linear-gradient(top, #F5F5F5, #F1F1F1);
@@ -196,7 +197,7 @@ button.green,
 	background: -moz-linear-gradient(top, #3C9300, #398A00);
 	background: -ms-linear-gradient(top, #3C9300, #398A00);
 	background: -o-linear-gradient(top, #3C9300, #398A00);
-	
+	padding: 5px;
 	-webkit-transition: border .20s;
 	-moz-transition: border .20s;
 	-o-transition: border .20s;
@@ -272,6 +273,7 @@ button.red:active,
 .ddm span.label, 
 button span.label, 
 .button span.label {
+    
 	display: inline-block;
 	float: left;
 	line-height: 17px;
