@@ -1,0 +1,215 @@
+body
+{
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+    outline: none;
+}
+
+.borda
+{
+    border: 1px solid #C0C0C0;
+}
+
+#divCabecalhoAssinador
+{
+    position: fixed;
+    width: 100%;
+    height: 99px;
+    top: 0px;
+    left: 0px;
+    float: left;
+    clear: both;
+    background-color: #DEDEDC;
+}
+
+#divRodapeAssinador
+{
+    background-position: left bottom;
+    position: fixed;
+    width: 100%;
+    height: 33px;
+    bottom: 0px;
+    right: 0px;
+    float: left;
+    clear: both;
+    background-image: url('../Images/sada_rodape.png');
+    background-repeat: no-repeat;
+}
+
+#divConteudoAssinador
+{
+    position: fixed;
+    width: 100%;
+    height: 553px;
+    top: 90px;
+    left: 0px;
+    float: left;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+.Logo
+{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    float: left;
+    width: 100px;
+    height: 67px;
+}
+
+.TextoTitulo
+{
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30px;
+    left: 125px;
+    float: left;
+}
+
+.TextoRodape
+{
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    position: absolute;
+    bottom: 2px;
+    left: 70px;
+    color: #FFFFFF;
+}
+
+.InstrucoesAssinador
+{
+    font-family: 'Trebuchet MS';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+}
+
+green
+{
+    color: #008000;
+    font-weight: bold;
+}
+
+red
+{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+
+/* pagina download */
+#container
+{
+   
+   width: 700px;
+   position:relative;
+   left:50%;
+   margin-left:-350px;
+   top:50px;
+}
+.imgLogo
+{
+    float:left;
+    margin: auto 0;
+    
+}
+.texto
+{
+    font-size:14px;
+    margin-left:7%;
+    width:420px;
+}
+.msgInterna
+{
+    font-size:18px;
+    font-weight:bold;   
+    
+    
+}
+#titulo
+{
+       font-size:18px;
+       margin-bottom:10px;
+}
+
+
+.privacy-bar {
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding: 14px 16px !important;
+    border-radius: 7px 7px 7px 7px !important;
+    -moz-border-radius: 7px 7px 7px 7px !important;
+    -webkit-border-radius: 7px 7px 7px 7px !important;
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 20%) !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 10px auto !important;
+    width: calc(100% - 20px) !important;
+    max-width: 800px;
+    position: fixed !important;
+    clear: both !important;
+    z-index: 9999999998 !important;
+    box-sizing: border-box !important;
+    letter-spacing: normal !important;
+    vertical-align: baseline;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-shadow: none;
+    word-wrap: inherit;
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin: 0;
+    font-weight: 400;
+    font-size: 11px !important;
+    display: flex;
+}
+
+.privacy-bar-text {
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+
+.privacy-bar a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.privacy-bar-button-box {
+    padding: 0;
+}
+
+.privacy-bar-button {
+    border-radius: 7px 7px 7px 7px !important;
+    -moz-border-radius: 7px 7px 7px 7px !important;
+    -webkit-border-radius: 7px 7px 7px 7px !important;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    height: 25px;
+    padding: 0;
+    margin: auto;
+    display: block;
+    max-width: 80px;
+    min-width: 64px;
+    align-content: center;
+}
+
+    .privacy-bar-button:hover {
+        background-color: #5f5f5f !important;
+        color: #FFFFFF !important;
+    }

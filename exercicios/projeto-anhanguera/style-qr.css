@@ -1,0 +1,97 @@
+caixa
+html, body {
+    background-color: #ffffff;
+}
+* {
+    outline: none;
+}
+:root {
+    view-transition-name: root;
+}
+html {
+    display: block;
+}
+//
+
+titulo conf.
+.labelTitulo {
+    width: 100%;
+    border-bottom: #dedede solid 1px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+//
+
+
+containercomponent 
+element.style {
+    width: 740px !important;
+}
+.containerComponente {
+    width: 900px;
+    min-height: 51px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    position: relative;
+}
+* {
+    outline: none;
+}
+div {
+    display: block;
+}
+
+.pesquisar_new {
+    position: relative;
+    top: 12px;
+    padding-bottom: 12px;
+    max-width: 870px;
+}
+* {
+    outline: none;
+}
+div {
+    display: block;
+}
+//
+
+pesquisarnew logo das facul
+element.style {
+    border-width: 0px;
+}
+* {
+    outline: none;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+center {
+    text-align: -webkit-center;
+}
+//
+
+
+
+.estiloTitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #5f5f5f;
+    font-weight: 700;
+}
+* {
+    outline: none;
+}
+
+folha de estilo do user agent
+label {
+    cursor: default;
+}
+body {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+    outline: none;
+}
+

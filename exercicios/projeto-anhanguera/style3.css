@@ -123,7 +123,7 @@ body{
     width: calc(100% - 240px);
     left: 240px;
     height: 80px;
-    background: rgb(226, 226, 226);
+    background: #f2f2f2;
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -214,8 +214,6 @@ nav .profile-details i {
     padding-top: 100px;
 }
 
-
-
 .home-content .overview-boxes{
     display: flex;
     width: 100%;
@@ -230,8 +228,7 @@ nav .profile-details i {
     align-items: center;
     justify-content: center;
     padding: 15px 14px;
-    background: #f2f2f2;
-    border-radius: 12px; 
+    background: #f2f2f2; 
     box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
 }
 .home-content .overview-boxes .box-topic{
@@ -259,6 +256,8 @@ nav .profile-details i {
     color: rgb(0, 174, 255);
     justify-content: right;
 }
+
+
 
 @media (max-width: 1216px) {
     .sidebar {
