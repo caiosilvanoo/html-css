@@ -81,6 +81,12 @@ body, html {
 .item img {
     width: 24px;
 }
+.item:hover {
+    border-radius: 8px;
+    background: rgba(255, 145, 105, 0.463);
+    transition: all 0.5s ease;
+}
+
 .item span {
     font-style: normal;
     font-weight: 550;
@@ -94,6 +100,20 @@ body, html {
     font-weight: 550;
     font-size: 35px;
 }
+.item a {
+    padding-top: 5px;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.item span {
+    padding: 0;
+}
+
+
 .item_sair {
 
 }
