@@ -108,7 +108,10 @@ span.label2 {
     box-shadow: 0 40px 40px rgba(252, 94, 37, 0.144);
     cursor: pointer;
 }
-
+.nome {
+    text-decoration: none;
+    color: black;
+}
 
 
 
