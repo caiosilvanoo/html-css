@@ -5,7 +5,7 @@
 }
 
 center {
-    background: rgb(223, 223, 223);
+    background: rgb(239, 239, 239);
     padding: 30px;
     padding-bottom: 50px;
 }
@@ -107,4 +107,26 @@ span.label2 {
     border-radius: 3px;
     box-shadow: 0 40px 40px rgba(252, 94, 37, 0.144);
     cursor: pointer;
+}
+
+
+
+
+/* primeira pagina */
+
+.obs {
+    margin: 10px;
+}
+
+.proximo {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background: rgb(0, 145, 255);
 }
