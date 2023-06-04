@@ -18,7 +18,7 @@ body, html {
 
 .bg img {
     /* full height */
-    height: 250px;
+    height: 220px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,4 +132,43 @@ body, html {
         width: 100%;
         margin-top: 0;
     }
+}
+
+
+
+/* page 2 */
+.aulas {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.aulas .titulo_aula {
+    font-family: var(--body-font);
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    font-weight: 550;
+    color: var(--text-color);
+}
+.aulas .video_aula a {
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: 15px;
+    margin: 0;
+    margin-left: 20px;
+    padding: 10px;
+    font-weight: 550;
+    color: var(--icon-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+.aulas .materia_pdf a {
+    font-family: var(--body-font);
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 550;
+    color: var(--icon-color);
+    text-decoration: none;
+    cursor: pointer;
 }
