@@ -138,10 +138,11 @@ body, html {
 
 /* page 2 */
 .aulas {
+    margin-bottom: 10px;
     background-color: #e5e5e5;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.);
 }
 .aulas .titulo_aula {
     font-family: var(--body-font);
